@@ -87,7 +87,7 @@ Your answer goes here.
 Here's an example truth table for the `!` (not) operation. In it, we're listing the values of `!a` that correspond with a given value of `a`.
 
 |a|!a|
-|-|--|
+|---|---|
 |true|false|
 |false|true|
 
