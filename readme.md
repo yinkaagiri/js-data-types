@@ -1,8 +1,11 @@
 ## Instructions
 
 * Clone this repo: `git clone git@github.com:ga-wdi-exercises/js-data-types.git`
-* Follow the instructions to each question in `basics.js`. Your answers should be entered as a comment below each question.
+* Follow the instructions to each section in `exercise.md`. All the questions will have you provide an answer in a dedicated space below each of them.
+* You will not be submitting this exercise, so no need for `git push` or pull requests.
 
-## Notes
+## How To Test Your Code
 
-* Some of these questions can be better answered just by running the code directly in the browser Javascript console. Others might be better suited by writing code in a separate `script.js` and printing out the results in the browser console.
+Open `index.html` in your browser.
+* If you just want to a line or two of code, you can enter and run it directly in the browser Javascript console as a REPL.
+* If you want to run a longer block of code (e.g., a loop or series of conditionals), type it out in `script.js` and use `console.log` statements to see the result in the browser Javascript console.
