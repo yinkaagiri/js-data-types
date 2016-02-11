@@ -94,28 +94,28 @@ Here's an example truth table for the `!` (not) operation. In it, we're listing 
 Fill out the truth tables below for `&&` (and), `||` (or) and one that uses multiple comparison operators. All you need to do is replace the `?`'s with either `true` or `false`.
 > **HINT:** With the last one, it may be helpful to add additional columns to the table for each individual comparison.
 
-|a|b|a `&&` b|
+|a|b|a && b|
 |-|-|--|
 |true|true|?|
 |true|false|?|
 |false|true|?|
 |false|false|?|
 
-|a|b|a `||` b|
+|a|b|a || b|
 |-|-|--|
 |true|true|?|
 |true|false|?|
 |false|true|?|
 |false|false|?|
 
-|a|b|!a `&&` (a `||` b)|
+|a|b|!a && (a || b)|
 |-|-|--|
 |true|true|?|
 |true|false|?|
 |false|true|?|
 |false|false|?|
 
-|a|b|a `!=` b|
+|a|b|a != b|
 |-|-|--|
 |3|3|?|
 |1|5|?|
