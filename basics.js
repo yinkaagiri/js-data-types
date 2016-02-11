@@ -1,26 +1,17 @@
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
+// PRIMITIVE DATA TYPES
+
+// What is the return value of each of the below code samples? Please come up with an answer before testing any of the below in the console.
+
 typeof( 15 );
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( "hello" );
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( [ "dog", "cat", "horse" ] );
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 typeof( NaN );
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 "hamburger" + "s";
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 "hamburgers" - "s";
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 "johnny" + 5;
-
-// What is the return value of the below code sample? Provide a sentence or two of explanation.
 99 * "luftbaloons";
+
+// DATA COLLECTIONS
 
 // What will the contents of the below array be after the below code sample is executed.
 var numbers = [ 2, 4, 6, 8 ];
