@@ -109,6 +109,12 @@ Fill out the truth tables below for `&&` (and), `||` (or) and one that uses mult
 |false|true|?|
 |false|false|?|
 
+|a|b|a `!=` b|
+|---|---|---|
+|3|3|?|
+|1|5|?|
+|2|"2"|?|
+
 |a|b|!a AND (a OR b)|
 |---|---|---|
 |true|true|?|
@@ -116,11 +122,6 @@ Fill out the truth tables below for `&&` (and), `||` (or) and one that uses mult
 |false|true|?|
 |false|false|?|
 
-|a|b|a `!=` b|
-|---|---|---|
-|3|3|?|
-|1|5|?|
-|2|"2"|?|
 
 ## Conditionals
 
