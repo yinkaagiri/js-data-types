@@ -9,8 +9,8 @@ typeof( 15 );
 typeof( 5.5 );
 typeof( NaN );
 typeof( "hello" );
-typeof({ name: "Jesse", occupation: "Instructor" });
-typeof([ "dog", "cat", "horse" ]);
+typeof( true )
+typeof( 1 != 2 );
 
 "hamburger" + "s";
 "hamburgers" - "s";
