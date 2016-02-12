@@ -6,19 +6,19 @@ What is the return value of each of the below code snippets? Come up with an ans
 typeof( 15 );
 // Include your answer below each line using a comment, like this.
 
-typeof( 5.5 );
-typeof( NaN );
-typeof( "hello" );
-typeof( true )
-typeof( 1 != 2 );
+typeof( 5.5 ); // number
+typeof( NaN ); //number
+typeof( "hello" ); //string
+typeof( true ); // boolean
+typeof( 1 != 2 ); //boolean
 
-"hamburger" + "s";
-"hamburgers" - "s";
-"1" + "3"
-"1" - "3"
-"johnny" + 5;
-"johnny" - 5
-99 * "luftbaloons";
+"hamburger" + "s"; //hamburgers
+"hamburgers" - "s"; //NaN
+"1" + "3"; //13
+"1" - "3";//NaN
+"johnny" + 5;//johny5
+"johnny" - 5; //NaN
+99 * "luftbaloons"; //NaN
 ```
 
 What's going on in the second half of the previous question? Are there any "rules" we can pull from those examples?
@@ -37,6 +37,12 @@ Javascript provides us with a number of native methods that allow us to interact
 
 ```js
 // Your answers go here.
+push
+pop
+unshift
+shift
+concat
+split
 ```
 
 What will the contents of the below arrays be after the code samples are executed? Come up with an answer yourself before testing it out in the console.
@@ -51,6 +57,9 @@ numbers.unshift( 3 );
 
 ```
 Your answer goes here.
+numbers = [2,4,6];
+numbers = [2,4,6,10];
+numbers = [3,2,4,6];
 ```
 
 What is the return value of the below code sample? Come up with an answer yourself before testing it out in the console.
@@ -63,6 +72,7 @@ moreMorse.split( " " );
 
 ```
 Your answer goes here.
+["dot", "dash", "pause", "dash", "dot"]
 ```
 
 What will the contents of the below array be after the below code sample is executed? Come up with an answer yourself before testing it out in the console.
@@ -80,6 +90,35 @@ bands[1][3] = "Ringo";
 
 ```
 Your answer goes here.
+
+bands;
+["Paul"1: "John"2: "George"3: "Pete"length:]
+
+
+bands.unshift( stones );
+
+
+bands;
+["Brian", "Mick", "Keith" "Ronnie", "Charlie"], [ "Paul", "John", "George", "Pete"]
+
+bands[ bands.length - 1 ].pop();
+"Pete"
+
+bands;
+["Brian", "Mick", "Keith", "Ronnie", "Charlie"], ["Paul", "John", "George"]
+
+bands[0].shift();
+"Brian"
+
+bands;
+["Mick", "Keith", "Ronnie", "Charlie"], ["Paul", "John", "George"]
+
+bands[1][3] = "Ringo";
+"Ringo"
+
+bands;
+["Mick", "Keith", "Ronnie", "Charlie"], ["Paul", "John", "George" "Ringo"]
+
 ```
 
 ## Booleans & Comparison Operators
